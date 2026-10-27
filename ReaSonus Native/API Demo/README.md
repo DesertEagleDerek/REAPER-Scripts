@@ -2,6 +2,7 @@
 
 Small demo scripts to show API commands working in a limited capacity. Ideal for familiarising yourself with the API.
 
+&nbsp;
 ## reasonus_api_control_thing_under_pointer.lua
 
 Example of `ReaSonus_FP8_ControlThingUnderPointer` which is best used when mapped to a hot key.
