@@ -3,7 +3,7 @@
 ------------------------------------------------------------
 function FilterByName()
 	--you need to add one of your filters for this to work!
-	reaper.ReaSonus_FP8_FilterByName("YourFilter")
+	reaper.ReaSonus_FP8_SetFilterByName("YourFilter")
 end
 
 ------------------------------------------------------------
