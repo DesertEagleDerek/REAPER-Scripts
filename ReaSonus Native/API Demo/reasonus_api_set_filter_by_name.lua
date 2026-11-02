@@ -1,7 +1,7 @@
 ------------------------------------------------------------
 -- do the things
 ------------------------------------------------------------
-function FilterByName()
+function SetFilterByName()
 	--you need to add one of your filters for this to work!
 	reaper.ReaSonus_FP8_SetFilterByName("YourFilter")
 end
@@ -46,7 +46,7 @@ function versionCheck()
 end
 
 function ScriptExecute()
-	FilterByName()
+	SetFilterByName()
 end
 
 if (versionCheck()) then ScriptExecute() end
