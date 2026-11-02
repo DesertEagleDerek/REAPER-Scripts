@@ -1,9 +1,9 @@
 ------------------------------------------------------------
 -- do the things
 ------------------------------------------------------------
-function SetFilterByName()
+function SetTrackFilterByName()
 	--you need to add one of your filters for this to work!
-	reaper.ReaSonus_FP8_SetFilterByName("YourFilter")
+	reaper.ReaSonus_FP8_SetTrackFilterByName("YourFilter")
 end
 
 ------------------------------------------------------------
@@ -46,7 +46,7 @@ function versionCheck()
 end
 
 function ScriptExecute()
-	SetFilterByName()
+	SetTrackFilterByName()
 end
 
 if (versionCheck()) then ScriptExecute() end
