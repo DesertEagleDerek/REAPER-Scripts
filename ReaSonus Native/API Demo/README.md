@@ -7,9 +7,9 @@ Small demo scripts to show API commands working in a limited capacity. Ideal for
 
 Example of `ReaSonus_FP8_ControlThingUnderPointer` which is best used when mapped to a shortcut key.
 
-## reasonus_api_filter_by_name.lua
+## reasonus_api_set_filter_by_name.lua
 
-Example of `ReaSonus_FP8_FilterByName` which requires you to add one of your filters in order for it to work.
+Example of `ReaSonus_FP8_SetFilterByName` which requires you to add one of your filters in order for it to work.
 
 ## reasonus_api_get_track_offset.lua
 
