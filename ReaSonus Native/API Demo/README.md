@@ -30,3 +30,7 @@ Example of multiple API commands which selects any filter mode from a popup menu
 ## reasonus_api_set_track_filter_single.lua
 
 Example of `ReaSonus_FP8_SetTrackFilter` which selects any filter mode from a popup menu using a single API command.
+
+## reasonus_api_transport_seek.lua
+
+Example of all transport seek API commands used in a visual and console logged automation demo.
